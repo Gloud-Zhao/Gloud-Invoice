@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+    defaultConfig {
+        applicationId "cn.gloud.invoiceManager"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+greendao {
+    schemaVersion 7
+    daoPackage 'cn.gloud.invoiceManager.greendao.gen' //自动生成的工具类的包名
+    targetGenDir 'src/main/java'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:design:26.1.0'
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    //compile 'com.google.zxing:core:3.3.1'//    compile 'cn.bingoogolapple:bga-qrcode-zxing:1.2.1'
+
+    compile 'com.google.code.gson:gson:2.8.4'
+
+    compile 'org.greenrobot:greendao:3.2.2'
+    compile 'net.zetetic:android-database-sqlcipher:3.5.6'
+
+    compile 'com.android.support:appcompat-v7:26.0.1'
+    //compile 'com.github.XuDaojie:QRCode-Android:v0.4.2'
+
+
+    compile 'com.tsy:myokhttp:1.1.4'
+    compile  'com.roger.catloadinglibrary:catloadinglibrary:1.0.4'
+
+    //带进度的按钮
+    compile 'com.github.dmytrodanylyk.android-process-button:library:1.0.4'
+
+
+    compile 'com.tsy:myokhttp:1.1.4'
+
+    compile 'com.github.vondear:RxTools:v1.7.7.3'
+}

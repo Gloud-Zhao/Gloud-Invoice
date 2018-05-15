@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.vondear:RxTools-v1.7.7.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/b294c9a383d3d9222e6588a9d04cf6c3b25910d7/output/jars/libs/zip4j_1.3.2.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/b294c9a383d3d9222e6588a9d04cf6c3b25910d7/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b294c9a383d3d9222e6588a9d04cf6c3b25910d7/output/jars/libs/zxing_core_3.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b294c9a383d3d9222e6588a9d04cf6c3b25910d7/output/jars/libs/alipaySdk-20170309.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b294c9a383d3d9222e6588a9d04cf6c3b25910d7/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

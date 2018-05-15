@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tsy:myokhttp-1.1.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/859a17bf8149224ffe5c2a4cd5684f61f698f50d/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/859a17bf8149224ffe5c2a4cd5684f61f698f50d/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tsy/myokhttp/1.1.4/615b3c0c7167b1ea7ff5a531e2381ee90f27d619/myokhttp-1.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

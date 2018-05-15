@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50px"
+    android:orientation="vertical" >
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:id="@+id/invoice_master_etx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="报销人"
+            android:imeActionId="6"
+            android:imeActionLabel="@string/change_pwd_name"
+            android:imeOptions="actionUnspecified"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/invoice_price_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="金额"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="6dp" tools:layout_editor_absoluteY="2dp"/>
+    <TextView
+        android:id="@+id/invoice_push_date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="开票日期"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="6dp" tools:layout_editor_absoluteY="27dp"/>
+    <TextView
+        android:id="@+id/cinvoice_heck_num_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="校验码"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="6dp" tools:layout_editor_absoluteY="75dp"/>
+    <TextView
+        android:id="@+id/invoice_lef_num_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="发票最左的号"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="6dp" tools:layout_editor_absoluteY="101dp"/>
+
+    <TextView
+        android:id="@+id/invoice_num_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="发票号"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="6dp" tools:layout_editor_absoluteY="129dp"/>
+
+    <TextView
+        android:id="@+id/invoice_check_num_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="校验码"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="6dp" tools:layout_editor_absoluteY="129dp"/>
+
+
+    <TextView
+        android:id="@+id/invoice_status_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="199dp"/>
+
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/scan_qrcode_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="扫描"
+            tools:layout_editor_absoluteX="16dp" tools:layout_editor_absoluteY="443dp"/>
+        <Button
+            android:id="@+id/del_btn"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content" android:text="删除"
+            tools:layout_editor_absoluteX="251dp" tools:layout_editor_absoluteY="443dp"/>
+
+        <Button
+            android:id="@+id/claim_btn"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content" android:text="报销"
+            tools:layout_editor_absoluteX="251dp" tools:layout_editor_absoluteY="443dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
